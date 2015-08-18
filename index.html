@@ -1,0 +1,108 @@
+<!Doctype html>
+
+<html lang="en">
+<head>
+	<meta charset ="utf-8">
+	
+	<title>Super ABXY</title>
+	<meta name="description" content="Gaming and Geek Culture News">
+	<meta name="author" content="Bryan Metzger">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<!--[if lt IE 9]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	<![endif]-->
+</head>
+
+<body class="home">
+	<div id="page-wrapper">
+		<div id="header-wrapper">
+			<section id ="scoreboard-feed">
+				<div class="scoreboard-content">
+					<!-- get attributes with dataset Attribute in JS -->
+					<div class="scoreboard-dropdown">
+						<select id="dropdown-nav">
+							<option value="events" data-id="0" data-group="Events" data-game class="active">Events</option>
+							<option value="lol" data-id="1" data-group="league" data-game="League of Legends">LOL</option>
+							<option value="scii" data-id="2" data-group="starcraft" data-game="StarCraft II">SC II</option>
+							<option value="anime" data-id="3" data-group="anime" data-game="Anime">Anime</option>
+							<option value="tv" data-id="4" data-group="tv" data-game="TV">TV</option>
+						</select>
+					</div>
+					<div class="scoreboard-prev controls">
+					</div>
+					<div class="scorebord-next controls">
+					</div>
+					<div class="content-carousel">
+						
+					</div>
+				</div>
+			</section>
+			<header id ="global-header">
+				<h1 id="Logo">
+					<a name="navmainlogo" href="/">Super ABXY</a>
+				</h1>
+				<nav id="main-nav">
+					<ul class="nav-menu">
+						<li class="pillar home active">
+							<a class="nav-item" href="#">Home</a>
+						</li>
+						<li class="pillar games">
+							<a class="nav-item" href="#">Games</a>
+						</li>
+						<li class="pillar movies">
+							<a class="nav-item" href="#">Movies</a>
+						</li>
+						<li class="pillar tv">
+							<a class="nav-item" href="#">TV</a>
+						</li>
+						<li class="pillar esports">
+							<a class="nav-item" href="#">E-Sports</a>
+						</li>
+						<li class="pillar anime">
+							<a class="nav-item" href="#">Anime</a>
+						</li>
+						<li class="pillar comics">
+							<a class="nav-item" href="#">Comics</a>
+						</li>
+						<li class="pillar login">
+							<a class="nav-item" href="#">Log In</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<section id="main-window">
+			<section id="main-wrapper">
+				<div class="main-content layout-three-columns">
+					<section id="fav-feed" class="column-one set-height" data-behavior="fav-feed favorites-management">
+					
+					</section>
+					<section id="news-feed" class="column-two" data-behavior="main_news_feed">
+						<article data-id=" " data-behavior=" " class="featured news-feed-item"></article>
+						<article data-id=" " data-behavior=" " class="news-feed-item"></article>
+						<article data-id=" " data-behavior=" " class="news-feed-item"></article>
+						<article data-id=" " data-behavior=" " class="news-feed-item"></article>
+						<article data-id=" " data-behavior=" " class="news-feed-item"></article>
+						<article data-id=" " data-behavior=" " class="news-feed-item"></article>
+						<article data-id=" " data-behavior=" " class="news-feed-item"></article>
+						<article data-id=" " data-behavior=" " class="news-feed-item"></article>
+						<article data-id=" " data-behavior=" " class="news-feed-item"></article>
+						<article data-id=" " data-behavior=" " class="news-feed-item"></article>
+						<a href="#" name="load-more">Load More Recent News</a>
+					</section>
+					<section id="trending" class="column-three" data-behaivor="main_trending_feed">
+					</section>
+				</div>
+			</section>
+		</section>
+	</div>
+	
+	
+	<!-- Scripts -->
+	<script src="/js/script.js"></script>
+	
+</body>
+</html>
